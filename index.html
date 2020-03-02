@@ -4,9 +4,13 @@
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta charset="utf-8">
-    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
-    <link href="css/home.css" rel="stylesheet" type="text/css">
-    <link href="https://fonts.googleapis.com/css?family=Trade+Winds&display=swap" rel="stylesheet">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link href=" css/home.css " rel="stylesheet " type="text/css ">
+    <link href="https://fonts.googleapis.com/css?family=Share+Tech+Mono&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Trade+Winds&display=swap " rel="stylesheet ">
+    <link href="https://fonts.googleapis.com/css?family=Patrick+Hand&display=swap " rel="stylesheet ">
+    <link href="https://fonts.googleapis.com/css?family=Boogaloo&display=swap " rel="stylesheet ">
     <title>ADVISORY SITE.</title>
     <style>
         body {
@@ -47,7 +51,7 @@
             margin-left: 50px;
         }
         
-        #main {
+        .main {
             transition: margin-left .5s;
             padding: 16px;
         }
@@ -76,7 +80,7 @@
         /* Handle */
         
          ::-webkit-scrollbar-thumb {
-            background: green;
+            background: darkgoldenrod;
             border-radius: 10px;
         }
         /* Handle on hover */
@@ -88,40 +92,44 @@
 </head>
 
 <body>
-    <div class="container">
-        <div id="mySidenav" class="sidenav">
-            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-            <a href="index.html">Home.</a>
-            <a href="recreation.html">Recreational tourism.</a>
-            <a href="culture.html">Cultural tourism.</a>
-            <a href="pleasure.html">Pleasure tourism.</a>
-            <a href="sports.html">Sports tourism.</a>
-            <a href="religion.html">Religious tourism.</a>
-            <a href="medical.html">Health tourism.</a>
-            <a href="adventure.html">Adventure tourism.</a>
-        </div>
-        <div id="main">
-            <h1 id="titlehome">TRAVEL ADVISORY KENYA!!!</h1>
+    <div id="backvideo " class="vh-100 vw-100 position-fixed" style="z-index: -100; background-color: rgb(0, 128 ,0); ">
+        <video autoplay muted loop src="images/1022899936-preview.mp4 " class="w-100 " style="opacity: 40%; "></video>
+    </div>
+    <div class=" container ">
 
+        <div id="mySidenav " class="sidenav ">
+            <a href="javascript:void(0) " class="closebtn " onclick="closeNav() ">&times;</a>
+            <a href="index.html ">Home.</a>
+            <a href="recreation.html ">Recreational tourism.</a>
+            <a href="culture.html ">Cultural tourism.</a>
+            <a href="pleasure.html ">Pleasure tourism.</a>
+            <a href="sports.html ">Sports tourism.</a>
+            <a href="religion.html ">Religious tourism.</a>
+            <a href="medical.html ">Health tourism.</a>
+            <a href="adventure.html ">Adventure tourism.</a>
+        </div>
+        <h1 id="titlehome">TRAVEL ADVISORY KENYA!!!</h1>
+        <div class="main ">
             <p>Welcome to Travel Advisory Kenya, where anyone can easily research on any heritage site found in Kenya, easily book and set up with any travel agency of your choosing.</p>
             <p>The site is conveniently structured to enable you pick your preferred tourism category, event or location without much hustle.</p>
             <p>As we hold Kenya dear, the site has a wide repository of locations to choose from, hence providing the utmost satisfaction.</p>
-            <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; open</span>
+            <span style="font-size:30px;cursor:pointer " onclick="openNav() ">&#9776; open</span>
         </div>
         <script>
             function openNav() {
-                document.getElementById("mySidenav").style.width = "250px";
-                document.getElementById("main").style.marginLeft = "250px";
-                document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
+                document.getElementById("mySidenav ").style.width = "250px ";
+                document.getElementById("main ").style.marginLeft = "250px ";
+                document.body.style.backgroundColor = "rgba(0,0,0,0.4) ";
             }
 
             function closeNav() {
-                document.getElementById("mySidenav").style.width = "0";
-                document.getElementById("main").style.marginLeft = "0";
-                document.body.style.backgroundColor = "white";
+                document.getElementById("mySidenav ").style.width = "0 ";
+                document.getElementById("main ").style.marginLeft = "0 ";
+                document.body.style.backgroundColor = "white ";
             }
         </script>
-        <div class="secondhome">
+        <br><br>
+        <div class="secondhome ">
 
             <h2>Overview.</h2>
             <p>As one can easily see, the site's navigation bar is set up with the seven main sub-classifications of tourism, namely:</p>
@@ -138,25 +146,37 @@
             <p>Kenya has so much heritage, yet so little can be appreciated.</p>
             <p>Thus, this site has been built to offer more of the fusion of culture found here in Kenya.</p>
         </div>
+        <br><br>
+        <div class="thirdhome">
+            <h3>Portfolio.</h3>
+            <p>Once one chooses a preferred site, it is required that you feel in a form detailing your name, email and location for identification purposes.</p>
+            <p>One then chooses a travel agency to deal with from our wide portfolio of agencies.</p>
 
+            <p>The site has provided accurate and dependable user ratings for making your choice easier.</p>
+            <p>The following is a list of our preferred travel agencies and their ratings:</p>
+        </div>
+        <div class="agency">
+
+        </div>
         <ul class="pagination">
-            <li><a href="index.html">1</a></li>
-            <li><a href="recreation.html">2</a></li>
-            <li><a href="culture.html">3</a></li>
-            <li><a href="pleasure.html">4</a></li>
-            <li><a href="sports.html">5</a></li>
+            <li><a href="index.html ">1</a></li>
+            <li><a href="recreation.html ">2</a></li>
+            <li><a href="culture.html ">3</a></li>
+            <li><a href="pleasure.html ">4</a></li>
+            <li><a href="sports.html ">5</a></li>
             <li>
-                <a href="religion.html">6</a>
+                <a href="religion.html ">6</a>
             </li>
             <li>
-                <a href="medical.html">7</a>
+                <a href="medical.html ">7</a>
             </li>
             <li>
-                <a href="adventure.html">8</a>
+                <a href="adventure.html ">8</a>
             </li>
 
         </ul>
     </div>
+
 </body>
 
 </html>

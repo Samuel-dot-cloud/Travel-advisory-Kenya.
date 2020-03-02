@@ -1,4 +1,26 @@
-.titlehome {
+#titlehome {
     text-align: center;
-    font-family: Trade Winds;
+    font-family: "Trade Winds";
+    color: whitesmoke;
+}
+
+.main {
+    text-align: center;
+    font-family: Boogaloo;
+    font-size: 20px;
+}
+
+.secondhome {
+    font-family: Patrick Hand;
+    font-size: 25px;
+}
+
+body {
+    background-image: url(../im);
+}
+
+.thirdhome {
+    text-align: center;
+    font-family: Share Tech Mono;
+    font-size: 25px;
 }
