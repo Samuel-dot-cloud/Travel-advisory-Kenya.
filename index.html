@@ -3,9 +3,13 @@
 
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/home.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Trade+Winds&display=swap" rel="stylesheet">
+    <title>ADVISORY SITE.</title>
     <style>
         body {
-            font-family: "Lato", sans-serif;
             transition: background-color .5s;
         }
         
@@ -84,52 +88,75 @@
 </head>
 
 <body>
-    <div id="mySidenav" class="sidenav">
-        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-        <a href="index.html">Home.</a>
-        <a href="recreation.html">Recreational tourism.</a>
-        <a href="culture.html">Cultural tourism.</a>
-        <a href="pleasure.html">Pleasure tourism.</a>
-        <a href="sports.html">Sports tourism.</a>
-        <a href="religion.html">Religious tourism.</a>
-        <a href="medical.html">Health tourism.</a>
-        <a href="adventure.html">Adventure tourism.</a>
+    <div class="container">
+        <div id="mySidenav" class="sidenav">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <a href="index.html">Home.</a>
+            <a href="recreation.html">Recreational tourism.</a>
+            <a href="culture.html">Cultural tourism.</a>
+            <a href="pleasure.html">Pleasure tourism.</a>
+            <a href="sports.html">Sports tourism.</a>
+            <a href="religion.html">Religious tourism.</a>
+            <a href="medical.html">Health tourism.</a>
+            <a href="adventure.html">Adventure tourism.</a>
+        </div>
+        <div id="main">
+            <h1 id="titlehome">TRAVEL ADVISORY KENYA!!!</h1>
+
+            <p>Welcome to Travel Advisory Kenya, where anyone can easily research on any heritage site found in Kenya, easily book and set up with any travel agency of your choosing.</p>
+            <p>The site is conveniently structured to enable you pick your preferred tourism category, event or location without much hustle.</p>
+            <p>As we hold Kenya dear, the site has a wide repository of locations to choose from, hence providing the utmost satisfaction.</p>
+            <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; open</span>
+        </div>
+        <script>
+            function openNav() {
+                document.getElementById("mySidenav").style.width = "250px";
+                document.getElementById("main").style.marginLeft = "250px";
+                document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
+            }
+
+            function closeNav() {
+                document.getElementById("mySidenav").style.width = "0";
+                document.getElementById("main").style.marginLeft = "0";
+                document.body.style.backgroundColor = "white";
+            }
+        </script>
+        <div class="secondhome">
+
+            <h2>Overview.</h2>
+            <p>As one can easily see, the site's navigation bar is set up with the seven main sub-classifications of tourism, namely:</p>
+            <ul>
+                <li>Recreational tourism.</li>
+                <li>Cultural tourism.</li>
+                <li>Pleasure tourism.</li>
+                <li>Sports tourism.</li>
+                <li>Religious tourism.</li>
+                <li>Medical/Heath tourism.</li>
+                <li>Adventure tourism.</li>
+            </ul>
+            <p>For more information, one can easily scroll through the content herein and find out a whole more.</p>
+            <p>Kenya has so much heritage, yet so little can be appreciated.</p>
+            <p>Thus, this site has been built to offer more of the fusion of culture found here in Kenya.</p>
+        </div>
+
+        <ul class="pagination">
+            <li><a href="index.html">1</a></li>
+            <li><a href="recreation.html">2</a></li>
+            <li><a href="culture.html">3</a></li>
+            <li><a href="pleasure.html">4</a></li>
+            <li><a href="sports.html">5</a></li>
+            <li>
+                <a href="religion.html">6</a>
+            </li>
+            <li>
+                <a href="medical.html">7</a>
+            </li>
+            <li>
+                <a href="adventure.html">8</a>
+            </li>
+
+        </ul>
     </div>
-    <div id="main">
-
-
-        <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; open</span>
-    </div>
-    <script>
-        function openNav() {
-            document.getElementById("mySidenav").style.width = "250px";
-            document.getElementById("main").style.marginLeft = "250px";
-            document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
-        }
-
-        function closeNav() {
-            document.getElementById("mySidenav").style.width = "0";
-            document.getElementById("main").style.marginLeft = "0";
-            document.body.style.backgroundColor = "white";
-        }
-    </script>
-    <ul class="pagination">
-        <li><a href="index.html">1</a></li>
-        <li><a href="recreation.html">2</a></li>
-        <li><a href="culture.html">3</a></li>
-        <li><a href="pleasure.html">4</a></li>
-        <li><a href="sports.html">5</a></li>
-        <li>
-            <a href="religion.html">6</a>
-        </li>
-        <li>
-            <a href="medical.html">7</a>
-        </li>
-        <li>
-            <a href="adventure.html">8</a>
-        </li>
-
-    </ul>
 </body>
 
 </html>
