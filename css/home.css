@@ -1,26 +1,31 @@
-#titlehome {
-    text-align: center;
-    font-family: "Trade Winds";
-    color: whitesmoke;
-}
-
-.main {
-    text-align: center;
-    font-family: Boogaloo;
-    font-size: 20px;
-}
-
-.secondhome {
-    font-family: Patrick Hand;
-    font-size: 25px;
-}
-
-body {
-    background-image: url(../im);
-}
-
-.thirdhome {
-    text-align: center;
-    font-family: Share Tech Mono;
-    font-size: 25px;
-}
+                #titlehome {
+                    text-align: center;
+                    font-family: "Trade Winds";
+                    color: whitesmoke;
+                }
+                
+                .main {
+                    text-align: center;
+                    font-family: Boogaloo;
+                    font-size: 20px;
+                    color: crimson;
+                }
+                
+                .secondhome {
+                    font-family: Patrick Hand;
+                    font-size: 25px;
+                    color: darkcyan;
+                }
+                
+                .thirdhome {
+                    text-align: center;
+                    font-family: Share Tech Mono;
+                    font-size: 25px;
+                    color: khaki;
+                }
+                
+                .columncard {
+                    float: left;
+                    width: 25%;
+                    padding: 5px;
+                }
