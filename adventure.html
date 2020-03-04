@@ -135,10 +135,6 @@
             margin: 0
         }
         
-        .mySlides {
-            display: none
-        }
-        
         img {
             vertical-align: middle;
         }
@@ -251,6 +247,44 @@
             }
         }
     </style>
+    <style>
+        .card {
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+            max-width: 300px;
+            margin: auto;
+            text-align: center;
+            font-family: arial;
+        }
+        
+        .title {
+            color: grey;
+            font-size: 18px;
+        }
+        
+        button {
+            border: none;
+            outline: 0;
+            display: inline-block;
+            padding: 8px;
+            color: white;
+            background-color: #000;
+            text-align: center;
+            cursor: pointer;
+            width: 100%;
+            font-size: 18px;
+        }
+        
+        a {
+            text-decoration: none;
+            font-size: 22px;
+            color: black;
+        }
+        
+        button:hover,
+        a:hover {
+            opacity: 0.7;
+        }
+    </style>
 </head>
 
 <body>
@@ -270,9 +304,10 @@
 
         <h1 id="titleadvent">THE ADVENTURE SECTION!!!</h1>
         <div class="main8 ">
-
-
-            <span style="font-size:30px;cursor:pointer " onclick="openNav() ">&#9776; open</span>
+            <p>Feel that adrenaline rush and just want to explore the great outdoors, well, look no further.</p>
+            <p>Fortunately, Kenya offers such thrill seekers a wide playground that allows them to burn their hiking shoes as often as possible</p>
+            <p>Here at the best adventure spots in Kenya for those seeking the ultimate challenge, not for the faint of heart!</p>
+            <span style="font-size:30px;cursor:pointer " onclick="openNav() ">&#9776; Navigation bar.</span>
         </div>
         <script>
             function openNav() {
@@ -292,47 +327,37 @@
             <div class="mySlides fade">
                 <div class="numbertext">1 / 8</div>
                 <img src="./images/gettyimages-1000909020-170667a.jpg" style="width:100%">
-                <div class="text">Caption Text</div>
+                <div class="text">Snorkeling in Malindi.</div>
             </div>
 
             <div class="mySlides fade">
                 <div class="numbertext">2 / 8</div>
                 <img src="./images/gettyimages-1134519127-170667a.jpg" style="width:100%">
-                <div class="text">Caption Two</div>
+                <div class="text">The Maasai Mara.</div>
             </div>
 
             <div class="mySlides fade">
                 <div class="numbertext">3 / 8</div>
                 <img src="./images/gettyimages-513903233-170667a.jpg" style="width:100%">
-                <div class="text">Caption Three</div>
+                <div class="text">Hot air ballooning.</div>
             </div>
             <div class="mySlides fade">
                 <div class="numbertext">4 / 8</div>
                 <img src="./images/gettyimages-541049844-170667a.jpg" style="width:100%">
-                <div class="text">Caption Text</div>
+                <div class="text">Mt.Ololokwe.</div>
             </div>
 
             <div class="mySlides fade">
                 <div class="numbertext">5 / 8</div>
                 <img src="./images/gettyimages-576461753-170667a.jpg" style="width:100%">
-                <div class="text">Caption Two</div>
+                <div class="text">Hell's Gate park.</div>
             </div>
 
             <div class="mySlides fade">
                 <div class="numbertext">6 / 8</div>
                 <img src="./images/gettyimages-619474496-594x594.jpg" style="width:100%">
-                <div class="text">Caption Three</div>
-                <div class="mySlides fade">
-                    <div class="numbertext">7 / 8</div>
-                    <img src="./images/gettyimages-993231496-170667a.jpg" style="width:100%">
-                    <div class="text">Caption Text</div>
-                </div>
+                <div class="text">Safari drive.</div>
 
-                <div class="mySlides fade">
-                    <div class="numbertext">8 / 8</div>
-                    <img src="./images/mick-haupt-p76_Ro6BM8o-unsplash.jpg" style="width:100%">
-                    <div class="text">Caption Two</div>
-                </div>
 
 
             </div>
@@ -350,8 +375,7 @@
             <span class="dot" onclick="currentSlide(4)"></span>
             <span class="dot" onclick="currentSlide(5)"></span>
             <span class="dot" onclick="currentSlide(6)"></span>
-            <span class="dot" onclick="currentSlide(7)"></span>
-            <span class="dot" onclick="currentSlide(8)"></span>
+
 
         </div>
 
@@ -387,6 +411,218 @@
                 dots[slideIndex - 1].className += " active";
             }
         </script>
+        <div class="adventurespot">
+            <h2>Most Prolific Adventure Spots in Kenya.</h2>
+            <div class="row">
+                <div class="columnad">
+                    <div class="card">
+                        <img src="./images/gettyimages-1146800983-594x594.jpg" alt="" style="width:100%">
+                        <h1>Mt.Ololokwe</h1>
+                        <p class="title"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3989.38193259244!2d37.52887064988625!3d0.8474250632177422!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1788b097f3eb88f5%3A0x63cb726190d16e7a!2sMt.%20Ololokwe!5e0!3m2!1sen!2ske!4v1583306193936!5m2!1sen!2ske"
+                                width="300" height="200" frameborder="0" style="border:0;" allowfullscreen="">Location.</iframe></p>
+                        <p>The distinctive flat-topped shape and high sheer cliff drops of the 2,000m high Mt Ololokwe towering over the Samburu plains a short distance past Archers Post in Northern Kenya never fails to turn heads.</p>
+                        <p>Lately this mountain, known by the locals as Ol Donyo Sabache, has become a major draw for visitors looking for hiking and rock climbing adventures off the beaten track, and the views of the surrounding semi-arid plains and distant
+                            mountains from the top are breathtaking.</p>
+                        <div style="margin: 24px 0;">
+                            <a href="https://www.youtube.com/watch?v=7Yx1OCPcm_A"><i class="fa fa-youtube"></i></a>
+
+                        </div>
+                        <p><button>Sign up.</button></p>
+                    </div>
+
+                </div>
+                <div class="columnad">
+                    <div class="card">
+                        <img src="./images/gettyimages-1055668334-170667a.jpg" alt="" style="width:100%">
+                        <h1>Skydiving, Diani Beach.</h1>
+                        <p class="title"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3978.2188551107124!2d39.555409649913734!3d-4.370039147978505!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x184048cf19150337%3A0x8970a1e9457765d!2sSkydive%20Diani!5e0!3m2!1sen!2ske!4v1583307188759!5m2!1sen!2ske"
+                                width="300" height="200" frameborder="0" style="border:0;" allowfullscreen=""></iframe></p>
+                        <p>Normally, if someone asks you to jump out of a plane mid-air, the correct response is to walk away.</p>
+                        <p>In Diani, however, your answer should be a resounding "Yes, please!" Here you can attempt a solo or tandem jump, or take classes if you're a newbie.</p>
+                        <div style="margin: 24px 0;">
+                            <a href="https://www.youtube.com/watch?v=j7wSCAA6sTM"><i class="fa fa-youtube"></i></a>
+
+                        </div>
+                        <p><button>Sign up.</button></p>
+                    </div>
+
+                </div>
+                <div class="columnad">
+                    <div class="card">
+                        <img src="./images/gettyimages-1072747612-170667a.jpg" alt="" style="width:100%">
+                        <h1>Paragliding, Kerio Valley.</h1>
+                        <p class="title"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3475.45960972229!2d35.56219011744385!3d0.2954038000000058!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1780ea09a3bd75a1%3A0x8267992f6a6016f3!2sKerio%20Valley%20Viewpoint!5e1!3m2!1sen!2ske!4v1583309454503!5m2!1sen!2ske"
+                                width="300" height="200" frameborder="0" style="border:0;" allowfullscreen=""></iframe></p>
+
+                        <p>The Kerio Valley offers a one or two hour hour break from gravity:paragliding.</p>
+                        <p>Thrill-seekers should make a point of timing their trip either very early or very late in the year, as December to March is when winds are strongest and give you the most bang for your buck.</p>
+                        <div style="margin: 24px 0;">
+                            <a href="https://www.youtube.com/watch?v=T3XOJSi7gNE"><i class="fa fa-youtube"></i></a>
+
+                        </div>
+                        <p><button>Sign up.</button></p>
+                    </div>
+
+                </div>
+            </div>
+            <div class="row">
+                <div class="columnad">
+                    <div class="card">
+                        <img src="./images/gettyimages-121607008-170667a.jpg" alt="" style="width:100%">
+                        <h1>Bungee jumping, Sagana.</h1>
+                        <p class="title"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6441.453317054887!2d37.20285059244287!3d-0.6703116480342983!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x18289bfe9ed81c93%3A0x40f2971505aa8d9c!2sSagana!5e1!3m2!1sen!2ske!4v1583312009854!5m2!1sen!2ske"
+                                width="300" height="200" frameborder="0" style="border:0;" allowfullscreen=""></iframe> </p>
+
+                        <p>Not for nervous souls suffering from vertigo, bungee jumping is nevertheless pereially popular.</p>
+                        <p>So why not throw yourself off a high ledge and have the adrenaline kick of a lifetime?. At Sagana, you leap off a 60m(196ft) tower located over the Tana River.</p>
+                        <div style="margin: 24px 0;">
+                            <a href="https://www.youtube.com/watch?v=C_r_0BOeUiQ"><i class="fa fa-youtube"></i></a>
+
+                        </div>
+                        <p><button>Sign up.</button></p>
+                    </div>
+
+                </div>
+                <div class="columnad">
+                    <div class="card">
+                        <img src="./images/gettyimages-180709479-170667a.jpg" alt="" style="width:100%">
+                        <h1>White Water Rafting, Tana River.</h1>
+                        <p class="title"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12882.824938400101!2d37.238118007650804!3d-0.7006789917810219!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x18289f1b277fc859%3A0xedcd47f73cffdb36!2sRapids%20Camp%20Sagana%20-%20White%20Water%20Rafting%20Centre!5e1!3m2!1sen!2ske!4v1583312356814!5m2!1sen!2ske"
+                                width="300" height="200" frameborder="0" style="border:0;" allowfullscreen=""></iframe> </p>
+
+                        <p>Water sport enthusiasts can get the ultimate adrenaline rush by navigating the treacherous white waters of the Tana river.</p>
+                        <p>With gentler stretches perfect for beginners and more intense rapids waiting to test the pros, add a little drama to your vacation with white water rafting.</p>
+                        <div style="margin: 24px 0;">
+                            <a href="https://www.youtube.com/watch?v=WAehbUkgwo4"><i class="fa fa-youtube"></i></a>
+
+                        </div>
+                        <p><button>Sign up.</button></p>
+                    </div>
+
+                </div>
+                <div class="columnad">
+                    <div class="card">
+                        <img src="./images/gettyimages-924793280-594x594.jpg" alt="" style="width:100%">
+                        <h1>Hot-air ballooning,Maasai Mara.</h1>
+                        <p class="title"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3220.0237873671667!2d34.9359154496248!3d-1.3719119989945083!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182ce8a64a31fdb1%3A0x296a9587e0c3c410!2sMaasai%20Mara%20National%20Reserve!5e1!3m2!1sen!2ske!4v1583315597794!5m2!1sen!2ske"
+                                width="300" height="200" frameborder="0" style="border:0;" allowfullscreen=""></iframe> </p>
+
+                        <p>This might seem like more of a gentle activity than adrenaline-inducing, but bear with us. Ballooning is one of the best ways to get exceptional views of the wildlife, and the thrill of looking upon the plains as the animals start
+                            their day will take your breath away.</p>
+                        <p>The balloons are blown by he prevailing winds, and you never know quite where you may end up.</p>
+                        <div style="margin: 24px 0;">
+                            <a href="https://www.youtube.com/watch?v=dP-tBUqJsLU"><i class="fa fa-youtube"></i></a>
+
+                        </div>
+                        <p><button>Sign up.</button></p>
+                    </div>
+
+                </div>
+            </div>
+            <div class="row">
+                <div class="columnad">
+                    <div class="card">
+                        <img src="./images/gettyimages-1146262474-170667a.jpg" alt="" style="width:100%">
+                        <h1>Mountain biking, Hell's Gate National Park.</h1>
+                        <p class="title"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3220.5614002216644!2d36.30417054962431!3d-0.8866749993499996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x18294a01b3120caf%3A0xa1258436f698fc5d!2sHell&#39;s%20Gate%20National%20Park!5e1!3m2!1sen!2ske!4v1583321025449!5m2!1sen!2ske"
+                                width="300" height="200" frameborder="0" style="border:0;" allowfullscreen=""></iframe></p>
+                        <p>Nothing beats the rush you get from speeding over narrow, rocky paths, past stunning flora and fauna with scenery you'll want to stop and photograph.</p>
+                        <p>Mountain biking through Hell's Gate offers this, with the thrill and exertion of the average ride enhanced by a view of hot springs, extinct volcanoes and gorges that look like they came straight from the movie set.</p>
+                        <div style="margin: 24px 0;">
+                            <a href="https://www.youtube.com/watch?v=CgO9dfeWP34"><i class="fa fa-youtube"></i></a>
+
+                        </div>
+                        <p><button>Sign up.</button></p>
+                    </div>
+
+                </div>
+                <div class="columnad">
+                    <div class="card">
+                        <img src="./images/gettyimages-1046943576-170667a.jpg" alt="" style="width:100%">
+                        <h1>Hiking Mt.Kenya</h1>
+                        <p class="title"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d25227.19981971949!2d37.3084079!3d-0.15213834999999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1827e264a95116b7%3A0x501b6e20567ff6b8!2sMount%20Kenya!5e1!3m2!1sen!2ske!4v1583322318205!5m2!1sen!2ske"
+                                width="300" height="200" frameborder="0" style="border:0;" allowfullscreen=""></iframe></p>
+                        <p>The mountain is the second highest mountain on the African continent and ccording to many people, the experience is supposed to be much better and nicer than the hike to the top of neighbouring Mt.Kilimanjaro in Tanzania.</p>
+                        <p>However, you need to join a guided tour and it will take you a few days to reach the top, giving you enough time to go get used to the altitude.</p>
+                        <div style="margin: 24px 0;">
+                            <a href="https://www.youtube.com/watch?v=jAwL0XtbT1w"><i class="fa fa-youtube"></i></a>
+
+                        </div>
+                        <p><button>Sign up.</button></p>
+                    </div>
+
+                </div>
+                <div class="columnad">
+                    <div class="card">
+                        <img src="./images/gettyimages-558251599-170667a.jpg " alt=" " style="width:100% ">
+                        <h1>Safari in Amboseli National Park.</h1>
+                        <p class="title "><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3150.033713972387!2d37.2607672!3d-2.6520157!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x18309e7455555555%3A0x8405eed269adf949!2sAmboseli%20National%20Park!5e1!3m2!1sen!2ske!4v1583327716736!5m2!1sen!2ske "
+                                width="300 " height="200 " frameborder="0 " style="border:0; " allowfullscreen=" "></iframe></p>
+
+                        <p>Amboseli National Park is located in the south of Kenya, right at the border of Tanzania.</p>
+                        <p>Thanks to its picturesque location in front of Mount Kilimanjaro, you'll enjoy fantastic views on Africa's highest mountain if the sky is clear.</p>
+                        <div style="margin: 24px 0; ">
+                            <a href="https://www.youtube.com/watch?v=JQ5c8QE85Rs "><i class="fa fa-youtube "></i></a>
+
+                        </div>
+                        <p><button>Sign up.</button></p>
+                    </div>
+
+                </div>
+            </div>
+            <div class="row ">
+                <div class="columnad ">
+                    <div class="card ">
+                        <img src="./images/gettyimages-1134447535-170667a.jpg " alt=" " style="width:100% ">
+                        <h1>Snorkeling in Malindi.</h1>
+                        <p class="title "><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3215.7521567213716!2d40.12968744962951!3d-3.254571797618902!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x18158526a9658c7b%3A0x2cab418fc15a3592!2sMarine%20National%20Park%20-%20Malindi!5e1!3m2!1sen!2ske!4v1583330794654!5m2!1sen!2ske"
+                                width="300" height="200" frameborder="0" style="border:0;" allowfullscreen=""></iframe></p>
+                        <p>Since you can't explore the lost city of Atlantis, why not do the next best thing?</p>
+                        <p>Snorkeling off the Kenyan coast in the welcoming waters of the Indian Ocean provides you with a great underwater adventure and gets you up close with marine life and plant life that populates the secret world below the surface.</p>
+                        <div style="margin: 24px 0; ">
+                            <a href=" https://www.youtube.com/watch?v=zNlQXCfwBIw"><i class="fa fa-youtube "></i></a>
+
+                        </div>
+                        <p><button>Sign up.</button></p>
+                    </div>
+
+                </div>
+                <div class="columnad ">
+                    <div class="card ">
+                        <img src="./images/gettyimages-1055668334-170667a.jpg " alt=" " style="width:100% ">
+                        <h1>Skydiving, Diani Beach.</h1>
+                        <p class="title "><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3978.2188551107124!2d39.555409649913734!3d-4.370039147978505!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x184048cf19150337%3A0x8970a1e9457765d!2sSkydive%20Diani!5e0!3m2!1sen!2ske!4v1583307188759!5m2!1sen!2ske "
+                                width="300 " height="200 " frameborder="0 " style="border:0; " allowfullscreen=" "></iframe></p>
+                        <p>Normally, if someone asks you to jump out of a plane mid-air, the correct response is to walk away.</p>
+                        <p>In Diani, however, your answer should be a resounding "Yes, please! " Here you can attempt a solo or tandem jump, or take classes if you're a newbie.</p>
+                        <div style="margin: 24px 0; ">
+                            <a href="https://www.youtube.com/watch?v=j7wSCAA6sTM "><i class="fa fa-youtube "></i></a>
+
+                        </div>
+                        <p><button>Sign up.</button></p>
+                    </div>
+
+                </div>
+                <div class="columnad ">
+                    <div class="card ">
+                        <img src="./images/gettyimages-1072747612-170667a.jpg " alt=" " style="width:100% ">
+                        <h1>Paragliding, Kerio Valley.</h1>
+                        <p class="title "><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3475.45960972229!2d35.56219011744385!3d0.2954038000000058!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1780ea09a3bd75a1%3A0x8267992f6a6016f3!2sKerio%20Valley%20Viewpoint!5e1!3m2!1sen!2ske!4v1583309454503!5m2!1sen!2ske "
+                                width="300 " height="200 " frameborder="0 " style="border:0; " allowfullscreen=" "></iframe></p>
+
+                        <p>The Kerio Valley offers a one or two hour hour break from gravity:paragliding.</p>
+                        <p>Thrill-seekers should make a point of timing their trip either very early or very late in the year, as December to March is when winds are strongest and give you the most bang for your buck.</p>
+                        <div style="margin: 24px 0; ">
+                            <a href="https://www.youtube.com/watch?v=T3XOJSi7gNE "><i class="fa fa-youtube "></i></a>
+
+                        </div>
+                        <p><button>Sign up.</button></p>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
     </div>
 </body>
 
