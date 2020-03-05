@@ -29,3 +29,34 @@
                     width: 25%;
                     padding: 5px;
                 }
+                
+                #titleadvent {
+                    text-align: center;
+                    color: darkred;
+                    font-family: Nosifer, cursive;
+                }
+                
+                #titlelist {
+                    text-align: center;
+                    color: yellow;
+                    font-family: Fredericka the Great, cursive;
+                }
+                
+                #quote1 {
+                    color: darkgreen;
+                    font-family: Great Vibes, cursive;
+                    font-size: 40px;
+                }
+                
+                .main8 {
+                    text-align: center;
+                    font-family: Satisfy, cursive;
+                    font-size: 30px;
+                }
+                
+                .columnad {
+                    font-family: Indie Flower, cursive;
+                    float: left;
+                    width: 33.33%;
+                    padding: 5px;
+                }

@@ -7,6 +7,7 @@
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/bootstrap.css">
     <link href=" css/home.css " rel="stylesheet " type="text/css ">
+    <link href="https://fonts.googleapis.com/css?family=Fredericka+the+Great|Great+Vibes|Indie+Flower|Nosifer|Satisfy|Trade+Winds&display=swap" rel="stylesheet">
     <style>
         body {
             transition: background-color .5s;
@@ -128,11 +129,6 @@
     <style>
         * {
             box-sizing: border-box
-        }
-        
-        body {
-            font-family: Verdana, sans-serif;
-            margin: 0
         }
         
         img {
@@ -288,6 +284,9 @@
 </head>
 
 <body>
+    <div id="backvideo " class="vh-100 vw-100 position-fixed" style="z-index: -100; background-color: rgb(0, 128 ,0); ">
+        <video autoplay muted loop src="images/1029987734-preview.mp4 " class="w-100 " style="opacity: 60%; "></video>
+    </div>
     <div class="container">
         <div id="mySidenav " class="sidenav ">
             <a href="javascript:void(0) " class="closebtn " onclick="closeNav() ">&times;</a>
@@ -308,7 +307,17 @@
             <p>Fortunately, Kenya offers such thrill seekers a wide playground that allows them to burn their hiking shoes as often as possible</p>
             <p>Here at the best adventure spots in Kenya for those seeking the ultimate challenge, not for the faint of heart!</p>
             <span style="font-size:30px;cursor:pointer " onclick="openNav() ">&#9776; Navigation bar.</span>
+
         </div>
+        <br><br>
+        <div class="jumbotron">
+            <blockquote>
+                <p id="quote1">"The world is a book, and those who do not travel read only one page".</p>
+                <cite id="quote1">Saint Augustine.</cite>
+            </blockquote>
+        </div>
+
+
         <script>
             function openNav() {
                 document.getElementById("mySidenav ").style.width = "250px ";
@@ -411,8 +420,10 @@
                 dots[slideIndex - 1].className += " active";
             }
         </script>
+        <br>
+        <br>
         <div class="adventurespot">
-            <h2>Most Prolific Adventure Spots in Kenya.</h2>
+            <h2 id="titlelist">Most Prolific Adventure Spots in Kenya.</h2>
             <div class="row">
                 <div class="columnad">
                     <div class="card">
@@ -589,14 +600,14 @@
                 </div>
                 <div class="columnad ">
                     <div class="card ">
-                        <img src="./images/gettyimages-1055668334-170667a.jpg " alt=" " style="width:100% ">
-                        <h1>Skydiving, Diani Beach.</h1>
-                        <p class="title "><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3978.2188551107124!2d39.555409649913734!3d-4.370039147978505!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x184048cf19150337%3A0x8970a1e9457765d!2sSkydive%20Diani!5e0!3m2!1sen!2ske!4v1583307188759!5m2!1sen!2ske "
-                                width="300 " height="200 " frameborder="0 " style="border:0; " allowfullscreen=" "></iframe></p>
-                        <p>Normally, if someone asks you to jump out of a plane mid-air, the correct response is to walk away.</p>
-                        <p>In Diani, however, your answer should be a resounding "Yes, please! " Here you can attempt a solo or tandem jump, or take classes if you're a newbie.</p>
+                        <img src="./images/gettyimages-613840754-170667a.jpg " alt=" " style="width:100% ">
+                        <h1>Exploration, Lamu Island.</h1>
+                        <p class="title "><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d108967.81083745672!2d40.8649779!3d-2.29171105!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x18171c11b40ac0b9%3A0xd0803fae0427abf9!2sLamu!5e1!3m2!1sen!2ske!4v1583396814855!5m2!1sen!2ske"
+                                width="300" height="200" frameborder="0" style="border:0;" allowfullscreen=""></iframe></p>
+                        <p>It feels omewhat adventurous to explore the old city walking around and getting lost in the labyrinth of the small and narrow streets.</p>
+                        <p>Lamu's Old Town is characterised by a variety of different types of houses with influence from Arabia, India, Peru and Europe.</p>
                         <div style="margin: 24px 0; ">
-                            <a href="https://www.youtube.com/watch?v=j7wSCAA6sTM "><i class="fa fa-youtube "></i></a>
+                            <a href="https://www.youtube.com/watch?v=W-e3z9jrgHM "><i class="fa fa-youtube "></i></a>
 
                         </div>
                         <p><button>Sign up.</button></p>
@@ -605,15 +616,15 @@
                 </div>
                 <div class="columnad ">
                     <div class="card ">
-                        <img src="./images/gettyimages-1072747612-170667a.jpg " alt=" " style="width:100% ">
-                        <h1>Paragliding, Kerio Valley.</h1>
-                        <p class="title "><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3475.45960972229!2d35.56219011744385!3d0.2954038000000058!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1780ea09a3bd75a1%3A0x8267992f6a6016f3!2sKerio%20Valley%20Viewpoint!5e1!3m2!1sen!2ske!4v1583309454503!5m2!1sen!2ske "
-                                width="300 " height="200 " frameborder="0 " style="border:0; " allowfullscreen=" "></iframe></p>
+                        <img src="./images/gettyimages-551686613-170667a.jpg " alt=" " style="width:100% ">
+                        <h1>Caving, Chyulu Hills and Shimoni caves.</h1>
+                        <p class="title "><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3143.045029076217!2d39.3803!3d-4.647007200000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1841a13fcb476897%3A0x4a4c57205722b6ba!2sShimoni%20Slave%20Caves!5e1!3m2!1sen!2ske!4v1583399021378!5m2!1sen!2ske"
+                                width="300" height="200" frameborder="0" style="border:0;" allowfullscreen=""></iframe></p>
 
-                        <p>The Kerio Valley offers a one or two hour hour break from gravity:paragliding.</p>
-                        <p>Thrill-seekers should make a point of timing their trip either very early or very late in the year, as December to March is when winds are strongest and give you the most bang for your buck.</p>
+                        <p>The Shimoni caves were once a hiding place for locals on the run from slave hunters. They are pretty easy to explore and features a staircase leading down inside.</p>
+                        <p>The Chyulu Hills near Tsavo East National Park features the deepest known lava tube cave in the world and they are easily accessible by staircases that let you down below..</p>
                         <div style="margin: 24px 0; ">
-                            <a href="https://www.youtube.com/watch?v=T3XOJSi7gNE "><i class="fa fa-youtube "></i></a>
+                            <a href="https://www.youtube.com/watch?v=bZ4akOh1P18 "><i class="fa fa-youtube "></i></a>
 
                         </div>
                         <p><button>Sign up.</button></p>
@@ -621,9 +632,8 @@
 
                 </div>
             </div>
+
         </div>
-    </div>
-    </div>
 </body>
 
 </html>
