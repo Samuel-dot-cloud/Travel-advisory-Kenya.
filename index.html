@@ -341,10 +341,7 @@
                 </div>
             </div>
         </div>
-
-
-
-        <br><br><br>
+        <br><br><br><br><br><br><br>
         <nav aria-label="Page navigation">
             <ul class="pagination">
                 <li>
@@ -373,6 +370,110 @@
                 </li>
             </ul>
         </nav>
+
+        <br><br><br><br><br><br><br><br><br><br><br><br><br>
+        <div class="content">
+            <form action="mailto:viny.njoroge1@gmail.com" method="post">
+                <select name="product" onFocus="setStatus('message.')" onBlur="setStatus('')">
+                <option>A
+                <option>B
+                <option>C
+                <option>D
+                <option>E
+                <option>F
+                <option>G
+                </select>
+                <br>
+
+                <font size=5>Name:</font>
+                <input type="text" name="quantity" placeholder="your name" size=20 maxlength=50 onFocus="setStatus('(1-1000).')" onBlur="setStatus('')">
+                <br>
+
+                <font size=5>feedback:</font>
+                <input type="text" name="feedback" placeholder="write here" size=2000 maxlength=500 onFocus="setStatus('0-100 (0=untoasted 100=burnt).')" onBlur="setStatus('')">
+                <br>
+
+                <font size=5>are you travelling:</font>
+                <font size=5>For the first time </font>
+                <input type="radio" name="Are you travelling" value="yes" checked onClick="setStatus('?')">
+                <font size=5>i've travelled to such destinations before</font>
+                <input type="radio" name="are you travelling" value="no" onClick="setStatus('?')">
+
+                <hr>
+                <input type="submit" value="post">
+
+                <input type="reset" value="resubmit"> 👋 <br> thankyou for choosing us 🇰🇪
+
+            </form>
+
+        </div>
+        <style>
+            /* Style the video: 100% width and height to cover the entire window */
+            
+            #myVideo {
+                position: 20px;
+                right: 20;
+                bottom: 10rem;
+                min-width: 100%;
+                min-height: 100%;
+            }
+            /* Add some content at the bottom of the video/page */
+            
+            .content {
+                position: fixed;
+                bottom: 0;
+                background: rgba(0, 0, 0, 0.5);
+                color: #f1f1f1;
+                width: 100%;
+                padding: 20px;
+            }
+            /* Style the button used to pause/play the video */
+            
+            #myBtn {
+                width: 200px;
+                font-size: 18px;
+                padding: 10px;
+                border: none;
+                background: #000;
+                color: #fff;
+                cursor: pointer;
+            }
+            
+            #myBtn:hover {
+                background: #ddd;
+                color: black;
+            }
+        </style>
+        <script language="JavaScript">
+            function setStatus(str) {
+                window.status = str;
+                return true;
+            }
+
+            var greeting = "Hello! ";
+            window.defaultStatus = greeting;
+            // script end -->
+
+            // Get the video
+            var video = document.getElementById("myVideo");
+
+            // Get the button
+            var btn = document.getElementById("myBtn");
+
+            // Pause and play the video, and change the button text
+            function myFunction() {
+                if (video.paused) {
+                    video.play();
+                    btn.innerHTML = "Pause";
+                } else {
+                    video.pause();
+                    btn.innerHTML = "Play";
+                }
+            }
+        </script>
+
+
+
 
 
     </div>
